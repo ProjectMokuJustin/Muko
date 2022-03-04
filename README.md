@@ -2,7 +2,7 @@
 Homepage: "link coming soon"
 
 # 2D Platformer & Turn Based Strategy
-Muko is a Game in which you have to fight various enemies in an action 2D Platformer Combat enviourment but you can freely choose to change the current Gameplay to a Turn Based Game
+Muko is a Game in which you have to fight various enemies in an action 2D Platformer Combat environment but you can freely choose to change the current Gameplay to a Turn Based Game
 
 
 # Gameplay
@@ -14,7 +14,6 @@ Muko is a Game in which you have to fight various enemies in an action 2D Platfo
 
 # History (Date)
 - init. commit 24.02.2022
--
 
 
 # Documentation
