@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: playerData
   m_EditorClassIdentifier: 
   movementVelocity: 10
-  jumpVelocity: 15
+  jumpVelocity: 18
   amountOfJumps: 1
-  wallJumpVelocity: 20
+  wallJumpVelocity: 19
   wallJumpTime: 0.4
   wallJumpAngle: {x: 2, y: 3}
   coyoteTime: 0.2
@@ -27,7 +27,7 @@ MonoBehaviour:
   dashCooldown: 0.5
   maxHoldTime: 1
   holdTimeScale: 0.25
-  dashTime: 0.2
+  dashTime: 0.1
   dashVelocity: 30
   drag: 10
   dashEndYMultiplier: 0.2
