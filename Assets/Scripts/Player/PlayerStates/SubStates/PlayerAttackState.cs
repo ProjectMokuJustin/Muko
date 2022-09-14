@@ -22,14 +22,12 @@ public class PlayerAttackState : PlayerAbilityState
 
         setVelocity = false;
 
-        //weapon.EnterWeapon();
     }
 
     public override void Exit()
     {
         base.Exit();
 
-        //weapon.ExitWeapon();
     }
 
     public override void LogicUpdate()
@@ -50,11 +48,6 @@ public class PlayerAttackState : PlayerAbilityState
         }
     }
 
-   //public void SetWeapon(Weapon weapon)
-   //{
-   //    this.weapon = weapon;
-   //    this.weapon.InitializeWeapon(this, core);
-   //}
 
     public void SetPlayerVelocity(float velocity)
     {
