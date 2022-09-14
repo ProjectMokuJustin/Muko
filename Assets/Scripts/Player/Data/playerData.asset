@@ -27,7 +27,7 @@ MonoBehaviour:
   dashCooldown: 0.5
   maxHoldTime: 1
   holdTimeScale: 0.25
-  dashTime: 0.2
+  dashTime: 0.38
   dashVelocity: 30
   drag: 10
   dashEndYMultiplier: 0.2

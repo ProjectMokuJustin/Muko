@@ -129,6 +129,10 @@ public class PlayerInputHandler : MonoBehaviour
         {
             RawDashDirectionInput = cam.ScreenToWorldPoint((Vector3)RawDashDirectionInput) - transform.position;
         }
+        if(DashDirectionInput == Vector2.zero)
+        {
+            DashDirectionInput = new Vector2Int((int)transform.localScale.x, 0);
+        }
 
         DashDirectionInput = Vector2Int.RoundToInt(RawDashDirectionInput.normalized);
     }
